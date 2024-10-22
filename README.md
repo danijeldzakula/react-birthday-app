@@ -11,9 +11,9 @@
 ```bash 
 # Clone repository code 
 
-$ git clone <PATH-TO-GITHUB>
+$ git clone https://github.com/danijeldzakula/react-birthday-app.git
 
-$ cd ..
+$ cd react-birthday-app
 ```
 
 ## Requirements
