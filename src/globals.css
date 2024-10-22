@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+  :root {
+  }
+
+  .dark {
+  }
+
+  select {
+    @apply !appearance-none;
+  }
+
+  html {
+    touch-action: manipulation;
+    @apply scroll-pt-0;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply min-h-[100svh] font-sans;
+  }
+
+  body pre {
+    @apply text-black;
+  }
+
+  ::-webkit-scrollbar {
+    @apply h-2 w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-zinc-200;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-zinc-400;
+  }
+
+  ::selection {
+    @apply bg-white text-black;
+  }
+}
+
+@layer utilities {
+}
+
+@layer components {
+}

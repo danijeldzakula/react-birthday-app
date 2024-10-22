@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Proveri kod (ESLint) pre nego što pokreneš testove
+pnpm eslint .
